@@ -24,6 +24,7 @@ class CustomTests(unittest.TestCase):
         """테스트 종료 후 파일 삭제 """
         try:
             os.remove(self.file_name)
+            print('tears')
         except:
             pass
 
